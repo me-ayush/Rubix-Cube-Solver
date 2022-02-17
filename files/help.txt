@@ -1,0 +1,104 @@
+Invisible Cloak
+---------------------------------------------------------------------
+Version - 1.0
+April 1st, 2021
+---------------------------------------------------------------------
+Written By - Ayush Kushwaha
+E-Mail - ayushkushwaha321@gmail.com
+---------------------------------------------------------------------
+
+Main Script : 
+---------------------------------------------------------------------
+main.exe
+
+Options :
+---------------------------------------------------------------------
+
+[1] Webcam Or Stream Webcam
+
+	[1.1] Choose Webcam :
+			if you want to connect with System Webcam (Inbuilt Or Connected Directly To System)
+			Webcam ID : 0 for your inbuilt webcam in system and goes like 1,2,3.... according to webcam connected 
+			(if you have 1 webcam connected extrenally to your system then Webcam ID will be 1)
+
+	[1.2] Choose Stream Webcam :
+			To connect to CCTV, Android Camera or to any other camera having IP Address
+			
+			[1.2.1] IP Adrress : IP Address Of Your Camera(Example : 192.168.43.1)
+			[1.2.2] Port : Port Of Connection(Example : 1111)
+			[1.2.3] Parameter : is the address after IP Adrress and port if there is no such things just leave it blank
+				(Example : Address Is 192.168.43.1:8080/video, So The Parameter will be '/video' without quotes)
+			[1.2.4] Username : Username to login To Camera (Leave Blank if Not Any)
+			[1.2.5] Password : Password to login To Camera (Leave Blank If Not Any)
+					(Username And Password Are Not Stored)
+
+[2] Refresh : To Refresh the page to show valid options(always refresh when you change the source)
+
+[3] Connect : To Connect to Camera/Webcam
+
+[4] Disconnect : To Disconnect from current Source
+
+[5] Help : This Menu
+
+[6] Exit : To Exit The Program
+
+[7] Calibrate : To Calibrate The Colours So camera can detect the cube colours correctly.
+
+
+
+How To Solve Cube : 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[1] Connect To Source Webcam/Camera
+[2] Now you have make sure that you will scan side correctly,
+	Make Sure Of These Things :
+		[1] The 'Face' Should Be Of 'Green' Colour (See The Centre Of Side)
+		[2] The 'Right' Side To Face Should Be Of 'Red' Colour (See The Centre Of Side)
+		[3] The 'Left' Side To Face Should Be Of 'Orange' Colour (See The Centre Of Side)
+		[4] The 'Back' Side To Face Should Be Of 'Blue' Colour (See The Centre Of Side)
+		[5] The 'UP' Side To Face Should Be Of 'White' Colour (See The Centre Of Side)
+		[6] The 'Down' Side To Face Should Be Of 'Yellow' Colour (See The Centre Of Side)
+		* Colurs Select According To The Centre Piece Of each side of cube.
+[3] Show The Side In Camera And 
+		PRESS 'F' to scan face/front side
+		PRESS 'L' to scan left side
+		PRESS 'B' to scan back side
+		PRESS 'R' to scan right side
+		PRESS 'U' to scan upper side 
+		PRESS 'D' to scan down side
+[4] Hit Enter, if all sides are scanned coreclty then it will show no error and you can move to next step, if encounter any error try to resolve it.
+[5] Hit Right Arrow Button of keyboard to see steps to solve the cube
+
+How To Calibrate : 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[1] Connect To Source Webcam/Camera
+[2] Click Calibrate
+[3] In Calibrate Window It Will Show Diffrent Options And Different Values.
+	In Left Bottom, it will show the current hsv values it fetching.
+	Set HSV Values Of Colours Accordingly.
+
+
+How To Use Your SmartPhone Camera:
+---------------------------------------------------------------------
+
+[1] Download IP Webcam In Your Phone
+[2] Make Sure Your Phone and your system are on same system
+[3] Open IP Webcam App
+[4] Now Click Start Server, The IP Address And Port Will Appear On Your Phone Screen, Note Them
+[5] Run Invisible Cloak Application
+[6] Choose Stream WebCam
+[7] Type Your IP Address (Only IP Address, Example "https://192.168.43.1:8080", IP Address Is 192.168.43.1, put only this)
+[8] Enter Port (Example "https://192.168.43.1:8080", In This Case PORT is 8080)
+[9] Parameter : By Default In IP Webcam App Parameter is /video
+[10] Username And Password : By Default No User And Password is set so left them blank
+[11] Click Connect
+	
+Example : In My IP Webcam After Starting Server It Show's Like : https://192.168.43.1:8080/
+						So In Invisible Clock Window i will Enter : 
+						IP Address : 192.168.43.1		Port : 8080	Parameter : /video
+						These Are The Default Settings
+					
+---------------------------------------------------------------------
+Thank you for supporting my efforts
+Please give me your valuable feedback on - ayushkushwaha321@gmail.com
+If you face any error in program feel free to mail me, i will try my best to solve it
